@@ -3,7 +3,6 @@ import './Person.css';
 
 class Practice extends Component {
   constructor(props) {
-    console.log(props);
     super();
       this.people = {
         'name': props.person.name,
